@@ -7,6 +7,10 @@ on:
   release:
     types:
       - released
+  workflow_run:
+    workflows: ["Release"]
+    types:
+      - completed
 
 jobs:
   helloworld:
