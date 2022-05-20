@@ -1,0 +1,13 @@
+name: trigger or nor
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+  release:
+    types:
+      - released
+
+jobs:
+  helloworld:
+    run: echo 'hello world'
