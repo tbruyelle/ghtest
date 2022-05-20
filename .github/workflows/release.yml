@@ -3,6 +3,7 @@ name: Release
 on:
   pull_request:
     types: [closed]
+    branches: [master]
 
   workflow_dispatch:
 
@@ -15,11 +16,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Tag
-        id: semver
         uses: K-Phoen/semver-release-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   docker-build:
-    if: ${{ jobs.release.steps.semver.outputs.tag != '' }}
+    needs: [release]
     uses: ./.github/workflows/docker-build.yml
