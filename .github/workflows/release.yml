@@ -19,9 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: hello '${{ steps.semver.outputs.tag }}'
+      - run: echo 'TAG=${{ steps.semver.outputs.tag }}'
 
-  docker-build:
-    needs: release
-    if: ${{ steps.semver.outputs.tag != '' }}
-    uses: ./.github/workflows/docker-build.yml
+      - if: ${{ steps.semver.outputs.tag != '' }}
+      - uses: ./.github/workflows/docker-build.yml
