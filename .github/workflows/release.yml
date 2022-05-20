@@ -21,5 +21,6 @@ jobs:
 
       - run: echo 'TAG=${{ steps.semver.outputs.tag }}'
 
-      - if: ${{ steps.semver.outputs.tag != '' }}
-      - uses: ./.github/workflows/docker-build.yml
+      - name: Docker
+        if: ${{ steps.semver.outputs.tag != '' }}
+        uses: ./.github/workflows/docker-build.yml
