@@ -1,4 +1,4 @@
-name: trigger or nor
+name: "trigger or nor"
 on:
   workflow_dispatch:
   push:
