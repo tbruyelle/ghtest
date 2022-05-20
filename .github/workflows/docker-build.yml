@@ -1,4 +1,4 @@
-name: "trigger or nor"
+name: "Hello world"
 on:
   workflow_dispatch:
   push:
@@ -7,10 +7,6 @@ on:
   release:
     types:
       - released
-  workflow_run:
-    workflows: ["Release"]
-    types:
-      - completed
 
 jobs:
   helloworld:
