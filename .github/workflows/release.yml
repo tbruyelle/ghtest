@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Tag
+        id: semver
         uses: K-Phoen/semver-release-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
