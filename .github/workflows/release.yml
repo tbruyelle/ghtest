@@ -20,4 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   docker-build:
-    uses: ./.github/workflows/docker-build
+    uses: ./.github/workflows/docker-build.yml
