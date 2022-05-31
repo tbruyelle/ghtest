@@ -3,7 +3,7 @@ name: Auto Label Patch to PR
 on:
   pull_request:
     types: opened
-    branches: main
+    branches: master
 
   workflow_dispatch:
 
