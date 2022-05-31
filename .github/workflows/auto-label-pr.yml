@@ -3,13 +3,13 @@ name: Auto Label Patch to PR
 on:
   pull_request:
     types: [opened]
-    branches: [main]
+    branches: [master]
 
   workflow_dispatch:
 
 jobs:
   set-label:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: Check and set label
     if: |
       !contains(github.event.pull_request.labels.*.name, 'patch') &&
