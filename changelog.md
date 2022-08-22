@@ -16,7 +16,6 @@
 ### Features
 
 - Apps can now use generics
-- add something
 
 ### Fixes
 
