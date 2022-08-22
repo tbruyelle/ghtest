@@ -5,7 +5,6 @@
 ### Changes
 
 - Upgraded Cosmos SDK to v0.46.0 and IBC to v5 in CLI and scaffolding templates
-- add something
 
 ### Features
 
@@ -17,6 +16,7 @@
 ### Features
 
 - Apps can now use generics
+- add something
 
 ### Fixes
 
