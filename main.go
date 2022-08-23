@@ -7,7 +7,9 @@ import (
 	"github.com/tbruyelle/ghtest/plop"
 )
 
-var a = 1
+var (
+	a = 1
+)
 
 func main() {
 	plop.Plop()
