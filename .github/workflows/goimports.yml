@@ -8,34 +8,34 @@ jobs:
   build:
     name: Build and Lint
     runs-on: ubuntu-latest
-  steps:
-    - name: Setup Go
-      uses: actions/setup-go@v2-beta
-      with:
-        go-version: '^1.14'
+    steps:
+      - name: Setup Go
+        uses: actions/setup-go@v2-beta
+        with:
+          go-version: '^1.14'
 
-    - name: Install goimports
-      run: go install golang.org/x/tools/cmd/goimports@latest
+      - name: Install goimports
+        run: go install golang.org/x/tools/cmd/goimports@latest
 
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: goimports
-      run: $(go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
+      - name: goimports
+        run: $(go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
 
-    - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
-      with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
-        #add: 'src'
+      - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          # Default: '.'
+          #add: 'src'
 
-        # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
-        # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
-        # Default: --tags --force
-        fetch: false
+          # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
+          # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
+          # Default: --tags --force
+          fetch: false
 
-        # The message for the commit.
-        # Default: 'Commit from GitHub Actions (name of the workflow)'
+          # The message for the commit.
+          # Default: 'Commit from GitHub Actions (name of the workflow)'
         message: 'Goimports format'
 
         # The way the action should handle pathspec errors from the add and remove commands. Three options are available:
