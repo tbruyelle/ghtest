@@ -10,5 +10,5 @@ import (
 func main() {
 	plop.Plop()
 	spew.Dump("SPEW")
-	fmt.Println("hello world")
+	fmt.Println("Hello world")
 }
