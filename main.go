@@ -11,6 +11,10 @@ var (
 	a = 1
 )
 
+var (
+	b = 2
+)
+
 func main() {
 	plop.Plop()
 	spew.Dump("SPEW")
