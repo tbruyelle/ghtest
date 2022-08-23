@@ -1,8 +1,6 @@
 package plop
 
-var (
-	x = 1
-)
+var x = 1
 
 func Plop() {
 	println("plop")
