@@ -11,7 +11,6 @@ var a = 1
 
 func main() {
 	plop.Plop()
-
 	spew.Dump("SPEW")
 	fmt.Println("Hello world")
 }
