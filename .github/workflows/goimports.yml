@@ -1,4 +1,4 @@
-me: Goimports
+name: Goimports
 on:
   push:
     branches:
