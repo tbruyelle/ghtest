@@ -6,5 +6,5 @@ format:
 	@go install mvdan.cc/gofumpt
 	@echo Formatting...
 	@$(shell go env GOPATH)/bin/gofumpt -w .
-	@$(shell go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest
+	@$(shell go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
 
