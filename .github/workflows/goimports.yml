@@ -19,8 +19,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.push.head.repo.full_name }}
+          ref: ${{ github.event.push.head.ref }}
 
       - name: goimports
         run: $(go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
