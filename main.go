@@ -10,7 +10,6 @@ import (
 
 func main() {
 	plop.Plop()
-
 	spew.Dump("SPEW")
 	fmt.Println("Hello world")
 }
