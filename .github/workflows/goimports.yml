@@ -1,4 +1,4 @@
-name: Goimports
+name: Goimports format
 on:
   push:
     branches: [master]
@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-    name: Build and Lint
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go
@@ -18,9 +17,6 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          repository: ${{ github.event.push.head.repo.full_name }}
-          ref: ${{ github.event.push.head.ref }}
 
       - name: goimports
         run: $(go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
