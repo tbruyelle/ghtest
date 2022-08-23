@@ -22,7 +22,7 @@ jobs:
         run: go install mvdan.cc/gofumpt@latest
 
       - name: Run goimports with -local flag
-        run: $(go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
+        run: $(go env GOPATH)/bin/goimports -w -local github.com/${{ github.repository }} .
 
       - name: Run gofumpt
         run: $(go env GOPATH)/bin/gofumpt -w .
