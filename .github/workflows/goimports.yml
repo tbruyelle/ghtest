@@ -17,6 +17,9 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: goimports
         run: $(go env GOPATH)/bin/goimports -w -local github.com/tbruyelle/ghtest .
@@ -31,7 +34,6 @@ jobs:
           # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
           # Default: --tags --force
           fetch: false
-
           # The message for the commit.
           # Default: 'Commit from GitHub Actions (name of the workflow)'
           message: 'Goimports format'
