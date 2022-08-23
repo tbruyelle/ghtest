@@ -4,16 +4,13 @@ import (
 	"fmt"
 
 	"github.com/davecgh/go-spew/spew"
+
 	"github.com/tbruyelle/ghtest/plop"
 )
 
-var (
-	a = 1
-)
+var a = 1
 
-var (
-	b = 2
-)
+var b = 2
 
 func main() {
 	plop.Plop()
