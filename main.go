@@ -12,6 +12,8 @@ var a = 1
 
 var b = 2
 
+type foo[T any] struct{}
+
 func main() {
 	plop.Plop()
 
