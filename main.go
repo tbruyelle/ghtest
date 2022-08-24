@@ -16,7 +16,6 @@ type foo[T any] struct{}
 
 func main() {
 	plop.Plop()
-
 	spew.Dump("SPEW")
 	fmt.Println("Hello world")
 }
