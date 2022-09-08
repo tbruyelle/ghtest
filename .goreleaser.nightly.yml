@@ -1,0 +1,12 @@
+project_name: ghtest
+builds:
+  - main: .
+    goos:
+      - linux
+    goarch:
+      - amd64
+changelog:
+  skip: true
+release:
+  prerelease: true
+  name_template: nightly
