@@ -6,6 +6,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	"github.com/tbruyelle/ghtest/plop"
+	"github.com/tbruyelle/modtest/submod/v3"
 )
 
 var a = 1
@@ -18,4 +19,5 @@ func main() {
 	plop.Plop()
 	spew.Dump("SPEW")
 	fmt.Println("Hello world")
+	submod.Bye()
 }
