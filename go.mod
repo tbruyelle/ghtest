@@ -4,8 +4,8 @@ go 1.19
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/tbruyelle/modtest v0.0.0-20220916122711-211eb66136fc
-	github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916122711-211eb66136fc
+	github.com/tbruyelle/modtest v0.0.0-20220916140950-62e1ddffd46b
+	github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916140950-62e1ddffd46b
 	golang.org/x/tools v0.1.12
 	mvdan.cc/gofumpt v0.3.1
 )

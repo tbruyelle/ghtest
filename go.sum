@@ -9,8 +9,14 @@ github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e h1:aoZm08cpOy4WuID//EZDgc
 github.com/rogpeppe/go-internal v1.8.1 h1:geMPLpDpQOgVyCg5z5GoRwLHepNdb71NXb67XFkP+Eg=
 github.com/tbruyelle/modtest v0.0.0-20220916122711-211eb66136fc h1:YZKFdeDvfzNFbkX7kQ2ciLXQ7z/OhDYBCuyvOoeKWy0=
 github.com/tbruyelle/modtest v0.0.0-20220916122711-211eb66136fc/go.mod h1:XKRH/aeSLLH5bmo0yFsMUVCbmkPhRLxao8NLWApSJx0=
+github.com/tbruyelle/modtest v0.0.0-20220916140950-62e1ddffd46b h1:SAB5+VylkjNau7Kz8C+neiYTsSYRCprg+Z9a7rS0jdI=
+github.com/tbruyelle/modtest v0.0.0-20220916140950-62e1ddffd46b/go.mod h1:XKRH/aeSLLH5bmo0yFsMUVCbmkPhRLxao8NLWApSJx0=
 github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916122711-211eb66136fc h1:YpcQU3E+gXplyFBXNx0BPeSL/0Bbkww/JzbflJzOK/4=
 github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916122711-211eb66136fc/go.mod h1:PuX0nMreOYyCqiRxF8CJnUpCxm5RW3DpxYHgIza/Rls=
+github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916140350-44e91b369ae5 h1:+yrthWntH7BvnIYARgAu4/o5/CQkawcGKh4oNrL0uig=
+github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916140350-44e91b369ae5/go.mod h1:PuX0nMreOYyCqiRxF8CJnUpCxm5RW3DpxYHgIza/Rls=
+github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916140950-62e1ddffd46b h1:cd9Djb80xf6LhoPzxfqhW8Io+57cRNxcqsqiSnbUnxs=
+github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916140950-62e1ddffd46b/go.mod h1:PuX0nMreOYyCqiRxF8CJnUpCxm5RW3DpxYHgIza/Rls=
 golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 h1:6zppjxzCulZykYSLyVDYbneBfbaBIQPYMevg0bEwv2s=
 golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=
 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 h1:uVc8UZUe6tr40fFVnUP5Oj+veunVezqYl9z7DYw9xzw=
