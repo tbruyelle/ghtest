@@ -11,6 +11,8 @@ github.com/tbruyelle/modtest v0.0.0-20220916122711-211eb66136fc h1:YZKFdeDvfzNFb
 github.com/tbruyelle/modtest v0.0.0-20220916122711-211eb66136fc/go.mod h1:XKRH/aeSLLH5bmo0yFsMUVCbmkPhRLxao8NLWApSJx0=
 github.com/tbruyelle/modtest v0.0.0-20220916140950-62e1ddffd46b h1:SAB5+VylkjNau7Kz8C+neiYTsSYRCprg+Z9a7rS0jdI=
 github.com/tbruyelle/modtest v0.0.0-20220916140950-62e1ddffd46b/go.mod h1:XKRH/aeSLLH5bmo0yFsMUVCbmkPhRLxao8NLWApSJx0=
+github.com/tbruyelle/modtest v0.0.0-20220916141618-c659cc8b5285 h1:j08/4eZ8BylmQYijx5wqhLI+eN2JENjlDk3k1yj0gbA=
+github.com/tbruyelle/modtest v0.0.0-20220916141618-c659cc8b5285/go.mod h1:XKRH/aeSLLH5bmo0yFsMUVCbmkPhRLxao8NLWApSJx0=
 github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916122711-211eb66136fc h1:YpcQU3E+gXplyFBXNx0BPeSL/0Bbkww/JzbflJzOK/4=
 github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916122711-211eb66136fc/go.mod h1:PuX0nMreOYyCqiRxF8CJnUpCxm5RW3DpxYHgIza/Rls=
 github.com/tbruyelle/modtest/submod/v3 v3.0.0-20220916140350-44e91b369ae5 h1:+yrthWntH7BvnIYARgAu4/o5/CQkawcGKh4oNrL0uig=
