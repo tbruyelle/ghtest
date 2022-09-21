@@ -13,4 +13,4 @@ jobs:
   helloworld:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'hello world'
+      - run: echo '${{ env.FOO }}'
