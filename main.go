@@ -5,6 +5,9 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
+	"github.com/tbruyelle/modtest"
+	"github.com/tbruyelle/modtest/submod/v3"
+
 	"github.com/tbruyelle/ghtest/plop"
 	"github.com/tbruyelle/modtest"
 	"github.com/tbruyelle/modtest/submod/v3"
